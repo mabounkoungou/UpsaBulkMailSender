@@ -129,15 +129,15 @@ export const sideBarBottomItems: DashboardSideBarTypes[] = [
 export const subscribersData: subscribersDataTypes[] = [
   {
     _id: "64f717a45331088de2ce886c",
-    email: "programmershahriarsajeeb@gmail.com",
-    createdAt: "5Feb 2024",
-    source: "Becodemy website",
+    email: "mobsbouks@gmail.com",
+    createdAt: "5Apr 2024",
+    source: "Asmic website",
     status: "subscribed",
   },
   {
     _id: "64f717a45331088de2ce886c",
-    email: "support@becodemy.com",
-    createdAt: "8Feb 2024",
+    email: "raadbouks@gmail.com",
+    createdAt: "8Apr 2024",
     source: "External website",
     status: "subscribed",
   },

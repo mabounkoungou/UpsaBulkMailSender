@@ -45,7 +45,7 @@ const SidebarFotterLogo = () => {
         </g>
       </svg>
       <h5 className="absolute right-7 pt-1 opacity-[.8] font-medium text-lg">
-        Becodemy
+       AsmicMailing 
       </h5>
     </div>
   );
