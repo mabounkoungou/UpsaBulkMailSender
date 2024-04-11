@@ -31,11 +31,11 @@ const Banner = () => {
         />
         <div className="absolute">
           <h1 className="font-clashDisplay uppercase font-bold text-cyber-ink text-[2.75rem] md:text-[7xl] lg:text-[4rem] xl:text-[5.75rem] max-w-4xl mx-auto text-center z-10">
-            THE NEWSLETTER PLATFORM BUILT FOR
-            <span className="font-style">GROW</span>
+          Communicate with your customers and  
+            <span className="font-style">staff</span>
           </h1>
           <br />
-          <h3 className="text-3xl text-center">Built by newsletter people</h3>
+          <h3 className="text-3xl text-center">like never before</h3>
           <br />
           <div className="flex w-full justify-center">
             <Button color="primary" className="text-xl !p-8">
