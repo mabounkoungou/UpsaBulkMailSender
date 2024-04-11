@@ -4,7 +4,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-[#f7f5ff] h-[95vh]">
+    <div className="bg-[#22d3ee] h-[95vh]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="214"
