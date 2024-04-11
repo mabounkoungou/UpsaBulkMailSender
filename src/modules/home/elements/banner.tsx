@@ -43,7 +43,6 @@ const Banner = () => {
             </Button>
           </div>
           <br />
-          <h5 className="text-center text-lg">start a 30day free trial</h5>
         </div>
       </div>
     </div>
