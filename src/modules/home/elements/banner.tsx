@@ -32,10 +32,10 @@ const Banner = () => {
         <div className="absolute">
           <h1 className="font-clashDisplay uppercase font-bold text-cyber-ink text-[2.75rem] md:text-[7xl] lg:text-[4rem] xl:text-[5.75rem] max-w-4xl mx-auto text-center z-10 bg-white">
           Communicate with   
-            <span className="[#22d3ee]"> your customers</span>
+            <span className="bg-white"> your customers</span>
           </h1>
           <br />
-          <h3 className="text-3xl text-center "> and  staff like never before</h3>
+          <h3 className="text-3xl text-center bg-white"> and  staff like never before</h3>
           <br />
           <div className="flex w-full justify-center">
             <Button color="primary" className="text-xl !p-8">
