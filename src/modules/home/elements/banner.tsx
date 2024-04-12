@@ -30,7 +30,7 @@ const Banner = () => {
           className="w-[80%] object-cover spin-slow "
         />
         <div className="absolute">
-          <h1 className="font-clashDisplay uppercase font-bold text-cyber-ink text-[2.75rem] md:text-[7xl] lg:text-[4rem] xl:text-[5.75rem] max-w-4xl mx-auto text-center z-10 white">
+          <h1 className="font-clashDisplay uppercase font-bold text-cyber-ink text-[2.75rem] md:text-[7xl] lg:text-[4rem] xl:text-[5.75rem] max-w-4xl mx-auto text-center z-10 text-white">
           Communicate with   
             <span className=""> your customers</span>
           </h1>
