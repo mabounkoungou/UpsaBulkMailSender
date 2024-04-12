@@ -10,9 +10,7 @@ const Toolbar = () => {
 
   return (
     <>
-      <Button color="primary" className="text-lg">
-        Start Trial
-      </Button>
+     
       {user ? (
         <>
           <Link href={"/dashboard"}>

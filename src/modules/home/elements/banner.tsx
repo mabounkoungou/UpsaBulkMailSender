@@ -37,12 +37,7 @@ const Banner = () => {
           <br />
           <h3 className="text-3xl text-center "> and  staff like never before</h3>
           <br />
-          <div className="flex w-full justify-center">
-            <Button color="primary" className="text-xl !p-8">
-              Get Started
-            </Button>
-          </div>
-          <br />
+         
         </div>
       </div>
     </div>
