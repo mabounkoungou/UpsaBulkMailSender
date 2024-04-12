@@ -166,11 +166,11 @@ const PricingCard = ({ active }: { active: string }) => {
             })
           }
         >
-          Get Started
+         Contact Us
         </Button>
         <p className="pt-1 opacity-[.7] text-center">
           30-day free trial of Scale features, then $
-          {active === "Monthly" ? "99" : "84"}/mo
+          {active === "Monthly" ? "N/A" : "N/A"}/mo
         </p>
       </div>
     </div>
