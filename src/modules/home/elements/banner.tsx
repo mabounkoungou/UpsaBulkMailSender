@@ -35,7 +35,7 @@ const Banner = () => {
             <span className="bg-white"> your customers</span>
           </h1>
           <br />
-          <h3 className="text-3xl text-center bg-white"> and  staff like never before</h3>
+          <h3 className="text-3xl text-center "> and  staff like never before</h3>
           <br />
           <div className="flex w-full justify-center">
             <Button color="primary" className="text-xl !p-8">
