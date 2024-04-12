@@ -53,9 +53,7 @@ export const GrowPlan: PlanType[] = [
   {
     title: "Up to 10,000 subscribers",
   },
-  {
-    title: "Custom domains",
-  },
+  
   {
     title: "API access",
   },
