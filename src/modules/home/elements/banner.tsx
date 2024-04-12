@@ -27,10 +27,10 @@ const Banner = () => {
           alt=""
           width={800}
           height={500}
-          className="w-[80%] object-cover spin-slow"
+          className="w-[80%] object-cover spin-slow "
         />
         <div className="absolute">
-          <h1 className="font-clashDisplay uppercase font-bold text-cyber-ink text-[2.75rem] md:text-[7xl] lg:text-[4rem] xl:text-[5.75rem] max-w-4xl mx-auto text-center z-10">
+          <h1 className="font-clashDisplay uppercase font-bold text-cyber-ink text-[2.75rem] md:text-[7xl] lg:text-[4rem] xl:text-[5.75rem] max-w-4xl mx-auto text-center z-10 [#ffffff]">
           Communicate with   
             <span className="[#22d3ee]">your customers</span>
           </h1>
