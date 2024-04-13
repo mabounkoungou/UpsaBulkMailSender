@@ -161,8 +161,8 @@ const PricingCard = ({ active }: { active: string }) => {
             handleSubscription({
               price:
                 active === "Monthly"
-                  ? "price_1On2H2SA1WAzNgKlV64Zj6gE"
-                  : "price_1Onf9gSA1WAzNgKlg8NLBP4r",
+                  ? "price_1P0Vl4IiyQpaPodpjhFwkDjA"
+                  : "price_1P0VhyIiyQpaPodpsNlFv5qH",
             })
           }
         >
