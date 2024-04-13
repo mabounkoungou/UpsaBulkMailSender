@@ -14,7 +14,7 @@ const DashboardItems = ({ bottomContent }: { bottomContent?: boolean }) => {
 
   const LogoutHandler = () => {
     signOut();
-    redirect("/sign-in");
+    redirect("/");
   };
 
   useEffect(() => {
