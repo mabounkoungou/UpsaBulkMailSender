@@ -53,7 +53,8 @@ const DashboardOverViewCard = () => {
           </div>
         </div>
         <small className="block text-sm opacity-[.7] pt-2">
-          from 0 (last 4 weeks)
+          from             {loading ? "..." : lastMonthSubscribers?.count}
+(last 4 weeks)
         </small>
       </div>
       {/* Click Rate */}
@@ -69,7 +70,8 @@ const DashboardOverViewCard = () => {
           </div>
         </div>
         <small className="block text-sm opacity-[.7] pt-2">
-          from 0 (last 4 weeks)
+          from             {loading ? "..." : lastMonthSubscribers?.count}
+ (last 4 weeks)
         </small>
       </div>
     </div>
