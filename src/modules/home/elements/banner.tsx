@@ -15,7 +15,7 @@ const Banner = () => {
         }}
       ></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
-        <h1 className="font-clashDisplay uppercase font-bold text-5xl md:text-7xl lg:text-9xl max-w-4xl mx-auto">
+        <h1 className="text-[#22d3ee] font-clashDisplay uppercase font-bold text-5xl md:text-7xl lg:text-9xl max-w-4xl mx-auto">
           Communicate with
           <span className="text-[#22d3ee]"> your customers</span>
         </h1>
