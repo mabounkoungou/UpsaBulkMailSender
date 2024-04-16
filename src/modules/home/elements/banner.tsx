@@ -4,41 +4,21 @@ import React from "react";
 
 const Banner = () => {
   return (
-      <div className="bg-cover bg-center w-full h-full" style={{backgroundImage: "url('https://unsplash.com/photos/six-assorted-color-mail-boxes-fb7yNPbT0l8')"}}>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="214"
-        height="214"
-        fill="none"
-        className="absolute block -top-3 -left-24 md:-left-0"
-      >
-        <path
-          fill="#F092DD"
-          stroke="#0B0D2A"
-          stroke-width="2"
-          d="M177.711 31.85c2.435-2.017 5.683 1.232 3.667 3.666L136.329 89.9c-2.359 2.848-.567 7.175 3.115 7.52l70.309 6.601c3.148.296 3.148 4.89 0 5.185l-70.309 6.601c-3.682.346-5.474 4.673-3.115 7.521l45.049 54.383c2.016 2.435-1.232 5.683-3.667 3.667l-54.383-45.049c-2.848-2.359-7.175-.567-7.521 3.115l-6.601 70.309c-.295 3.148-4.889 3.148-5.185 0l-6.6-70.309c-.346-3.682-4.673-5.474-7.521-3.115l-54.384 45.049c-2.434 2.016-5.683-1.232-3.666-3.667l45.048-54.383c2.36-2.848.568-7.175-3.115-7.521l-70.309-6.601c-3.147-.295-3.147-4.889 0-5.185l70.31-6.6c3.681-.346 5.474-4.673 3.114-7.521L31.85 35.516c-2.017-2.434 1.232-5.683 3.666-3.666L89.9 76.898c2.848 2.36 7.175.568 7.52-3.115l6.601-70.309c.296-3.147 4.89-3.147 5.185 0l6.601 70.31c.346 3.681 4.673 5.474 7.521 3.114l54.383-45.048Z"
-        ></path>
-      </svg>
-      <div className="w-full h-full flex justify-center items-center relative overflow-hidden">
-        <Image
-          src={
-            "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,onerror=redirect,format=auto,width=1920,quality=75/www/homepage/MobileHero.png"
-          }
-          alt=""
-          width={800}
-          height={500}
-          className="w-[80%] object-cover spin-slow "
-        />
-        <div className="absolute">
-          <h1 className="font-clashDisplay uppercase font-bold text-cyber-ink text-[2.75rem] md:text-[7xl] lg:text-[4rem] xl:text-[5.75rem] max-w-4xl mx-auto text-center z-10 text-white">
-          Communicate with   
-            <span className=""> your customers</span>
-          </h1>
-          <br />
-          <h3 className="text-3xl text-center text-white"> and  staff like never before</h3>
-          <br />
-         
-        </div>
+    <div className="relative w-full h-screen overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1466096115517-bceecbfb6fde?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+        }}
+      ></div>
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
+        <h1 className="font-clashDisplay uppercase font-bold text-5xl md:text-7xl lg:text-9xl max-w-4xl mx-auto">
+          Communicate with
+          <span className="text-[#22d3ee]"> your customers</span>
+        </h1>
+        <h3 className="text-3xl lg:text-4xl mt-4">and staff like never before</h3>
+        <Button className="mt-8">Get Started</Button>
       </div>
     </div>
   );
