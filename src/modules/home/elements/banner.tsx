@@ -9,7 +9,7 @@ const Banner = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1466096115517-bceecbfb6fde?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+            "url('https://media.istockphoto.com/id/1419530650/photo/leadership-management-and-teamwork-between-ceo-and-senior-manager-in-a-business-meeting-in.jpg?s=1024x1024&w=is&k=20&c=TzG4izpLNxkpptzi4v8AatExF_4SQvOMBwaqIURh6-M=')",
                     filter: "blur(5px)", // Add blur effect here
 
         }}
