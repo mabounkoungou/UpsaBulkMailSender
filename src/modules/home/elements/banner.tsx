@@ -4,7 +4,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-[#22d3ee] h-[95vh]">
+      <div className="bg-cover bg-center w-full h-full" style={{backgroundImage: "url('https://unsplash.com/photos/six-assorted-color-mail-boxes-fb7yNPbT0l8')"}}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="214"
