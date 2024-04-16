@@ -17,7 +17,7 @@ const Banner = () => {
           Communicate with
           <span className="text-[#22d3ee]"> your customers</span>
         </h1>
-        <h3 className="text-3xl lg:text-4xl mt-4">and staff like never before</h3>
+        <h3 className="text-[#22d3ee] text-3xl lg:text-4xl mt-4">and staff like never before</h3>
         <Button className="mt-8">Get Started</Button>
       </div>
     </div>
